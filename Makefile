@@ -1,18 +1,5 @@
-gaussian_mixture_spline_plot: ## Plot of a gaussian mixture model fit.
-	../py3_6/bin/python3 ./rta/models/splines/run/gaussian_mixture_model.py
 
-robust_spline_plot: ## Plot of a robust spline fit.
-	../py3_6/bin/python3 ./rta/models/splines/run/robust_model.py
-
-pypi: ## deploy (haha, no it won't... need to write it first ;)
-	git tag -d GutenTag
-	git push gh :refs/tags/GutenTag
-
-py3: ## Activate python3 virtualevn
-	source ../py3_6/bin/activate
-
-projectName = rta
-
+projectName = cacophonix
 
 # -----------------------------------------------------------
 # -----  EVERYTHING BELOW THIS LINE IS NOT IMPORTANT --------

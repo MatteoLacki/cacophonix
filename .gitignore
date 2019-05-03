@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__
+
+#R
+.Rhistory
+.Rproj.user
+*.Rproj
+
+#Python
+build
+dist
+*.egg-info
+*.swp
+rta/.ipynb_checkpoints/
+.pytest_cache/
+py3/
+
+rta/data/*.{msg,csv}
+
+
+# VIM
+*.swo
+
+# configs with passwords
+rta/config.py
+
+
+._*
